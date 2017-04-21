@@ -19,22 +19,22 @@ There are two data files in the repository. Each line in the data file represent
 
 Accuracy - RMSE:
 
-*0.065286
-*0.0602023
-*0.557399
-*0.589645
+* 0.065286
+* 0.0602023
+* 0.557399
+* 0.589645
 
 #### Data file: sample-laser-radar-measurement-data-2.txt
 
 Accuracy - RMSE:
 
-*0.186476
-*0.190327
-*0.810915
-*7.33921
+* 0.186476
+* 0.190327
+* 0.810915
+* 7.33921
 
 ---
-## The following section is from the original github repo.
+# The following section is from the original github repo.
 
 ## Dependencies
 
@@ -116,4 +116,3 @@ and how to install it.
 
 Regardless of the IDE used, every submitted project must
 still be compilable with cmake and make.
----
