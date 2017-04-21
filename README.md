@@ -3,6 +3,39 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+## Summary
+
+This repository contains a C++ implementation of an Extended Kalman Filter. It has been implemented as part of the Udacity Self-Driving Car Engineer Nanodegree Program.
+
+### Data
+
+There are two data files in the repository. Each line in the data file represents either a lidar or radar measurement marked by "L" or "R" on the starting line. The next following values are either the 2 lidar position measurements (x,y) or the 3 radar position measurements (rho, phi, rho_dot). The next value is then the time stamp and then finally the ground truth values for x, y, vx, vy.
+
+---
+
+### Evaluation
+
+#### Data file: sample-laser-radar-measurement-data-1.txt
+
+Accuracy - RMSE:
+
+*0.065286
+*0.0602023
+*0.557399
+*0.589645
+
+#### Data file: sample-laser-radar-measurement-data-2.txt
+
+Accuracy - RMSE:
+
+*0.186476
+*0.190327
+*0.810915
+*7.33921
+
+---
+## The following section is from the original github repo.
+
 ## Dependencies
 
 * cmake >= 3.5
@@ -83,3 +116,4 @@ and how to install it.
 
 Regardless of the IDE used, every submitted project must
 still be compilable with cmake and make.
+---
